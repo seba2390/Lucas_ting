@@ -13,9 +13,9 @@ For at køre skal du:
         - [Download Python 3.10](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe)
         - Installer det ved at køre .exe-filen du lige har hentet og sørg for at markere fluebenet "Add Python 3.10 to PATH" under installationen.
         - Genstart powershell og test at den genkender python3.10 alias ved at:
-                ```sh
-                python3.10 --version
-                ```
+            ```sh
+            python3.10 --version
+            ```
     - Aktivér 'navn_paa_dit_venv' ```venv```:
         ```sh
         .\navn_paa_dit_venv\Scripts\Activate.ps1
