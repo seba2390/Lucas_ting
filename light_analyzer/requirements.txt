@@ -1,0 +1,4 @@
+Pillow>=9.0.0 # Use Pillow for PIL, good practice to version
+numpy
+scipy
+matplotlib
