@@ -265,3 +265,9 @@ class LightAnalyzerApp:
             self.plotter.clear_plot() # Clear any previous attempt
             import traceback
             traceback.print_exc() # Print full traceback to console for debugging
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = LightAnalyzerApp(root)
+    app.load_default_image() # Attempt to load default image on startup
+    root.mainloop()
